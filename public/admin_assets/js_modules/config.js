@@ -1,8 +1,12 @@
 var server = window.location.hostname;
 
-if(server == 'localhost' || server == 'jentayu.dev' || server == '127.0.0.1')
+if(server == 'jentayu.dev' || server == '127.0.0.1')
 {
   var webUrl = "http://jentayu.dev/";
+}
+else if(server == 'localhost')
+{
+  var webUrl = "http:// " + server + "/jentayu/";
 }
 else
 {
