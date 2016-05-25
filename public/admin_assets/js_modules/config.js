@@ -6,7 +6,7 @@ if(server == 'jentayu.dev' || server == '127.0.0.1')
 }
 else if(server == 'localhost')
 {
-  var webUrl = "http://" + server + "/jentayu/";
+  var webUrl = "http://" + server + "/jentayu/public/";
 }
 else
 {
